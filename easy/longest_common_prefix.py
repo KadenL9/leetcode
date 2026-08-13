@@ -1,5 +1,5 @@
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs: list[str]) -> str:
         minimum = min([len(s) for s in strs])
         for x in range(minimum):
             common = strs[0][x]
